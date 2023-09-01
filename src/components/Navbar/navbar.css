@@ -1,5 +1,5 @@
 #logo {
-    width: clamp(5rem, 20rem, 50vw);
+    width: 40vw;
     position: absolute;
     top: 0;
     left: 0;

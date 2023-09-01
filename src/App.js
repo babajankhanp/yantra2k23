@@ -14,7 +14,6 @@ function App() {
   return (
 
     <BrowserRouter>
-
       <Hero />
       <Sliderimages />
       <Workshop />

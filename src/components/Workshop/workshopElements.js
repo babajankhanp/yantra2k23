@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
-    width: 100vw;
     overflow-x: hidden;
     min-height: 100vh;
     padding: 3rem calc((100vw - 1300px)/2);
-    background: linear-gradient(to right, #0575E6, #00F260); 
-    
+    background: linear-gradient(to right, #0575E6, #00F260);
+
 
 
     color: #fff;
@@ -23,7 +22,7 @@ export const ProductCard = styled.div`
     margin: 0 2rem;
     line-height: 2;
     width: 350px;
-    
+
     margin-bottom: 2rem;
     border: solid 1px #fff;
     border-radius: 0.2rem;
@@ -61,7 +60,7 @@ export const ProductsPara = styled.p`
         margin: 0 5vw 5vh 5vw;
         font-size: clamp(0.8rem, 1.5vw, 3rem);
     }
-    
+
 `;
 
 export const ProductTitle = styled.h2`
@@ -87,7 +86,7 @@ export const ProductDesc = styled.p`
     color: black;
     text-align: justify;
     font-size: 0.8rem;
-    
+
 `;
 
 export const ProductPrice = styled.p`

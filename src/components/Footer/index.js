@@ -25,9 +25,9 @@ const Footer = () => {
                 </SocialIcons>
             </SocialMedia>
             <hr />
-    
 
-            <Copyrights>&#64; 2022 Copyright Yantra2k22.com All Rights Reserved</Copyrights>
+
+            <Copyrights>&#64; 2023 Copyright Yantra2k23.com All Rights Reserved</Copyrights>
         </FooterWrap>
     </FooterContainer>
   )

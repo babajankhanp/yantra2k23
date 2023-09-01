@@ -9,7 +9,7 @@ render() {
         <ProductsPara>"Every enterprise is learning and teaching institution. Training and development must be built into it on all levels, training, and development that never stop."</ProductsPara>
         <ProductWrapper>
                     <ProductCard>
-                        <ProductImg src={require("../../images/paper.jpg")} alt="image" />
+                        <ProductImg src={require("../images/paper.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>☄ Paper Presentation </ProductTitle>
                             <ProductPrice>fee: Rs.100/-</ProductPrice>
@@ -24,7 +24,7 @@ render() {
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/powerpoint.jpg")} alt="image" />
+                        <ProductImg src={require("../images/powerpoint.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>PowerPoint Presentation</ProductTitle>
                             <ProductPrice>fee: Rs.100/-</ProductPrice>
@@ -39,7 +39,7 @@ render() {
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/powerpoint.jpg")} alt="image" />
+                        <ProductImg src={require("../images/powerpoint.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>☄Poster Presentation</ProductTitle>
                             <ProductPrice>fee: Rs.100/-</ProductPrice>
@@ -54,7 +54,7 @@ render() {
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/cultural1.jpeg")} alt="image" />
+                        <ProductImg src={require("../images/cultural1.jpeg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>💫Cultural Night 💥</ProductTitle>
                             <ProductPrice>fee: Rs.100/-</ProductPrice>
@@ -69,7 +69,7 @@ render() {
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/quiz.jpg")} alt="image" />
+                        <ProductImg src={require("../images/quiz.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>☄ Quiz</ProductTitle>
                             <ProductPrice>Price: Rs.100/-</ProductPrice>
@@ -82,7 +82,7 @@ render() {
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/project.jpg")} alt="image" />
+                        <ProductImg src={require("../images/project.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>☄ Project Exhibition</ProductTitle>
                             <ProductPrice>Price: Rs.100/-</ProductPrice>
@@ -94,7 +94,7 @@ render() {
                             <ProductButton onClick={()=>{window.open('https://forms.gle/LJfRocpGjc6BYArY7', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
-                
+
         </ProductWrapper>
     </ProductsContainer>
   )

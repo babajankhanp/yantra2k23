@@ -11,7 +11,7 @@ render() {
 William Pollard</ProductsPara>
         <ProductWrapper>
                     <ProductCard>
-                        <ProductImg src={require("../../images/gdt.jpg")} alt="image" />
+                        <ProductImg src={require("../images/gdt.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>GD&T</ProductTitle>
                             <ProductPrice>fee: Rs.500/-</ProductPrice>
@@ -20,14 +20,14 @@ William Pollard</ProductsPara>
                                     <li>A system for defining and communicating design intent and engineering tolerances </li>
                                     <li> It uses a symbolic language on engg drawings and computer-generated 3D solid models </li>
                                     <li>That eplicitly describe nonminal geometry and it's alloable variation.</li>
-                                
+
                                 </ul>
                             </ProductDesc>
                             <ProductButton onClick={()=>{window.open('https://forms.gle/L6Z3N2qhswbLDHkV8', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
                     <ProductCard>
-                        <ProductImg src={require("../../images/vehicle.jpg")} alt="image" />
+                        <ProductImg src={require("../images/vehicle.jpg")} alt="image" />
                         <ProductInfo>
                             <ProductTitle>Vehicle Diagnosis</ProductTitle>
                             <ProductPrice>fee Rs.500/-</ProductPrice>
@@ -35,14 +35,14 @@ William Pollard</ProductsPara>
                             <ul style={{textAlign: 'left'}}>
                                     <li>The mechanics involved with identifying and assessing problems that may negatively affect nominal operation of vehicle </li>
                                     <li>Scan your car's components and systems to  check for issues with components like engine,transmission,oil tank etc...</li>
-                                
+
                                 </ul>
                             </ProductDesc>
                             <ProductButton onClick={()=>{window.open('https://forms.gle/L6Z3N2qhswbLDHkV8', '_blank') }}>Register!</ProductButton>
                         </ProductInfo>
                     </ProductCard>
-          
-                
+
+
         </ProductWrapper>
     </ProductsContainer>
   )

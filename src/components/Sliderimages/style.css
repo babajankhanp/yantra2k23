@@ -2,16 +2,26 @@
     display: flex;
     justify-content: center;
   }
+
+  .overflow {
+    overflow: hidden;
+  }
+
   .card img {
-    max-width: 30vw;
-    min-width: 30vw;
+    width: 100%;
     min-height: 42vh;
     border-radius: 1rem 1rem 0 0;
+  }
 
+
+
+  .my-card-wrapper {
+    display: flex;
+    margin: 1rem;
   }
   .card-title{
-    padding: 0;
-    margin: 0;
+    padding: 1rem;
+    margin: 1rem;
     color: #000;
     text-align: center;
     margin-bottom: 45%;
@@ -24,17 +34,14 @@
     width: 30vw;
     height: 50vh;
     border-radius: 1rem;
+  }
 
-    
-  }
-  .carousel-inner {
-    padding: 2em;
-    
-  }
   h1{
     padding: 1vh 3vh 3vh 2vw;
     font-size: 2.5rem;
   }
+
+
   .carousel-control-prev,
   .carousel-control-next {
     background-color: #000;
@@ -56,7 +63,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    
+
     .card {
     min-width: 90vw;
     height: 50vh;
