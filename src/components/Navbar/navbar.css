@@ -1,0 +1,9 @@
+#logo {
+    width: clamp(5rem, 20rem, 50vw);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3.5vh;
+    margin-left: 3vw;
+    padding-top: 0;
+}

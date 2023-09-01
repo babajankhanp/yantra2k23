@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+import Events from "./components/Events";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import Workshop from "./components/Workshop";
+import Sliderimages from "./components/Sliderimages";
+import Schedule from "./components/Schedule";
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+
+      <Hero />
+      <Sliderimages />
+      <Workshop />
+      <Events />
+      <Schedule />
+      <Footer />
+    </BrowserRouter>
   );
 }
 
